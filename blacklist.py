@@ -97,9 +97,9 @@ class BlackList(object):
         self.__blacklistFile = os.getcwd() + "/rules/black.txt"
         self.__domainlistFile = os.getcwd() + "/rules/domain.txt"
         self.__domainlistFile_CN = os.getcwd() + "/rules/direct.txt"
-        self.__domainlistUrl_CN = "https://raw.githubusercontent.com/217heidai/RoutingRules/main/rules/direct.txt"
+        self.__domainlistUrl_CN = "https://raw.githubusercontent.com/1314520lovelsc/RoutingRules/main/rules/direct.txt"
         self.__iplistFile_CN = os.getcwd() + "/rules/ipv4_china.txt"
-        self.__iplistUrl_CN = "https://raw.githubusercontent.com/217heidai/RoutingRules/main/rules/ipv4_china.txt"
+        self.__iplistUrl_CN = "https://raw.githubusercontent.com/1314520lovelsc/RoutingRules/main/rules/ipv4_china.txt"
         self.__maxTask = 500
 
     def __getDomainList(self):
